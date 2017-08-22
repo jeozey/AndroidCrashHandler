@@ -7,7 +7,7 @@ import android.view.View;
 
 import com.jeo.crashhandler.R;
 
-public class Main2Activity extends Activity implements View.OnClickListener{
+public class Second extends Activity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,7 @@ public class Main2Activity extends Activity implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-        Intent intent =new Intent(this,MainActivity.class);
+        Intent intent =new Intent(this,CrashActivity.class);
         startActivity(intent);
     }
 }
